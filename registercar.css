@@ -1,0 +1,166 @@
+.car-register {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.car-register-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 36px;
+    align-items: center;
+    position: relative;
+}
+
+.back-title{
+    position: absolute;
+    left: 0;
+    color: #000;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.main-title > h2{
+    font-size: 2rem;
+}
+
+.car-register-mode{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.btn-registercar{
+    padding: 15px 0;
+}
+.btn-registercar > .btn-submit{
+    padding: 15px 20px;
+    border: 1px solid #5fcf86;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #5fcf86;
+    color: #fff;
+}
+
+.btn-registercar:hover{
+    box-shadow: 0 8px 24px 12px rgba(0,0,0,.08), 
+    0 20px 24px -4px rgba(0,0,0,.08);
+}
+
+.car-register-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.car-register-content > .title-content {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.ta-ct{
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-inner {
+    margin: 0 auto;
+}
+
+.steps{
+    text-align: center;
+}
+
+.steps-item{
+    line-height: 2;
+}
+
+/* step */
+::placeholder {
+    opacity: 0.6; 
+  }
+
+.clear-line {
+    padding: 10px 0;
+}
+
+.attention{
+    color: red;
+}
+
+.module-register{
+    background-color: #f6f6f6;
+}
+
+.mode{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+}
+
+.step-number{
+    width: 100%;
+}
+
+.number {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 60px;
+}
+
+.active{
+    background-color: #5fcf86;
+}
+.stepbystep {
+    float: left;
+    padding: 15px 75px;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.fleft{
+    float: left;
+}
+
+.form-default{
+    padding: 10px 50px;
+    background-color: #fff;
+}
+
+.register-input{
+    margin-bottom: 8px;
+    line-height: 1.6;
+    width: 50%;
+    padding: 8px;
+}
+
+.register-input-full{
+    width: 100% !important;
+}
+
+
+/* reponsive */
+@media only screen and (max-width: 767px){
+    .text-back {
+        display: none;
+        margin-left: -50px;
+    }
+
+    .register-input {
+        width: 100%;
+    }
+}
